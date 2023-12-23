@@ -5,7 +5,7 @@ output : tdrohe*/
 
 class ReturnEvPoCharRev {
 
-	String evenPosition(String name) {
+	String evenPosition(String name){
 		String even = "";
 		for (int index = name.length() - 1; index >= 0; index--) {
 			if (index % 2 != 0) {

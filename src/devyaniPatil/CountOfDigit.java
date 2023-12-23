@@ -16,7 +16,6 @@ class CountOfDigit {
 		}
 		return count;
 	}
-
 	public static void main(String[] args) {
 		CountOfDigit counter = new CountOfDigit();
 		int result = counter.getCount("Te8chno3cred7it9s");
