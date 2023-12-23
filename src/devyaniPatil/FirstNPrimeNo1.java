@@ -18,10 +18,8 @@ class FirstNPrimeNo1 {
 	void firstNPrimeNo(int n) {
 		int count = 0;
 		int num = 2;
-
 		while (count < n) {
 			boolean isPrime = true;
-
 			if (num >= 2) {
 				for (int i = 2; i <= num / 2; i++) {
 					if (num % i == 0) {
@@ -32,15 +30,12 @@ class FirstNPrimeNo1 {
 			} else {
 				isPrime = false;
 			}
-
 			if (isPrime) {
 				System.out.println(num);
 				count++;
 			}
-
 			num++;
 		}
-
 	}
 
 	public static void main(String[] args) {
