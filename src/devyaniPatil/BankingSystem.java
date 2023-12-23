@@ -23,67 +23,69 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 
 NOTE : You should have setUserDetails method to set username and initial Balance */
 
-
-class BankingSystem{
+class BankingSystem {
 	String username;
 	int balance;
-	int debitCount,creditCount,printCount;
+	int debitCount, creditCount, printCount;
 	static int allDebitCount;
 	static int allCreditCount;
 	static int allPrintCount;
-	
-	void debitAmt(int Amt){
-	if(Amt<=balance){
-		balance=balance-Amt;
-	
-	}else{
-		System.out.println(username + "having low account balance");
+
+	void debitAmt(int Amt) {
+		if (Amt <= balance) {
+			balance = balance - Amt;
+
+		} else {
+			System.out.println(username + "having low account balance");
+		}
+		debitCount++;
+		allDebitCount++;
 	}
-	debitCount++;
-      allDebitCount++;	
+
+	void creditAmt(int amt) {
+		balance = balance + amt;
+		creditCount++;
+		allCreditCount++;
 	}
-	
-	void creditAmt(int amt){
-	  balance=balance+amt;
-      creditCount++;	  
-	  allCreditCount++;
-	}
-	void printBalance(){
-		System.out.println(this.username+ " current balance is" +this.balance);
+
+	void printBalance() {
+		System.out.println(this.username + " current balance is" + this.balance);
 		printCount++;
 		allPrintCount++;
-		
 	}
-	void setUserDetails(int balance,String username){
-		this.balance=balance;
-		this.username=username;
+
+	void setUserDetails(int balance, String username) {
+		this.balance = balance;
+		this.username = username;
 	}
-	void individualTransactionSummary(){
-	System.out.println(username+" transaction Summary:credit-"+creditCount+"times Debit-"+debitCount+
-	"times,printbalance-"+printCount+"times");
+
+	void individualTransactionSummary() {
+		System.out.println(username + " transaction Summary:credit-" + creditCount + "times Debit-" + debitCount
+		+ "times,printbalance-" + printCount + "times");
 	}
-	void alltransactionSummary(){
-		System.out.println(" Alltrabsaction summary:Credit-"+allCreditCount+"times,Debit-"
-	    +allDebitCount+"times,printBalance-"+printCount+"times");
+
+	void alltransactionSummary() {
+		System.out.println(" Alltrabsaction summary:Credit-" + allCreditCount + "times,Debit-" + allDebitCount
+		+ "times,printBalance-" + printCount + "times");
 	}
-	
-	public static void main(String[]args){
-		BankingSystem user1=new BankingSystem();
-		BankingSystem user2=new BankingSystem();
-		
-		user1.setUserDetails(10000,"devyani");
+
+	public static void main(String[] args) {
+		BankingSystem user1 = new BankingSystem();
+		BankingSystem user2 = new BankingSystem();
+
+		user1.setUserDetails(10000, "devyani");
 		user1.debitAmt(2000);
 		user1.debitAmt(3000);
 		user1.creditAmt(2000);
 		user1.printBalance();
 		user1.individualTransactionSummary();
-		user2.setUserDetails(3000,"adi");
+		user2.setUserDetails(3000, "adi");
 		user2.creditAmt(300);
 		user2.creditAmt(500);
 		user2.debitAmt(600);
 		user2.printBalance();
 		user2.individualTransactionSummary();
 		user1.alltransactionSummary();
-		user2.alltransactionSummary();		
+		user2.alltransactionSummary();
 	}
 }
