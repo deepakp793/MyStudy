@@ -24,7 +24,7 @@ class rearrangeString1 {
 				tempLowerCaseLetter = tempLowerCaseLetter + ch;
 			}
 		}
-		return tempUppercaseLetter + tempDigits + tempLowerCaseLetter;
+		 return tempUppercaseLetter + tempDigits + tempLowerCaseLetter;
 	}
 
 	public static void main(String[] args) {

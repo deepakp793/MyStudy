@@ -18,7 +18,6 @@ class RerrangeString {
 				tempLetter = tempLetter + ch;
 			} else if (Character.isDigit(ch)) {
 				tempDigit = tempDigit + ch;
-
 			}
 		}
 		return tempDigit + tempLetter;
