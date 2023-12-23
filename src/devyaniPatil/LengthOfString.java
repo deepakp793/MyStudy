@@ -4,14 +4,13 @@ package devyaniPatil;
  1. write a method to return length of the given name
 int getNameLength(String name)*/
 
-class LengthOfString{
+class LengthOfString {
 
-      int getNameLength(String name){
-          return name.length();		 
-	  }
-	  public static void main (String[]args){
-		  String str="Adiii";
-		  System.out.println("Length of string is "+str.length());
-    
-	  }
-} 
+	int getNameLength(String name) {
+		return name.length();
+	}
+	public static void main(String[] args) {
+		String str = "Adiii";
+		System.out.println("Length of string is " + str.length());
+	}
+}
