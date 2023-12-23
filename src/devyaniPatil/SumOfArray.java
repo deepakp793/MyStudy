@@ -20,6 +20,6 @@ class SumOfArray {
 		SumOfArray s = new SumOfArray();
 		int[] num = { 10, 11, 15 };
 		int ans = s.add(num);
-		System.out.println("Sum of all numbers in given array is : " + ans);
+     	System.out.println("Sum of all numbers in given array is : " + ans);
 	}
 }

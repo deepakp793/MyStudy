@@ -23,9 +23,7 @@ class SumofPrimeNoArray {
 		for (int index = 0; index < arr.length; index++) {
 			if (isPrime(arr[index])) {
 				sum = sum + arr[index];
-
 			}
-
 		}
 		return sum;
 	}
@@ -35,7 +33,5 @@ class SumofPrimeNoArray {
 		int[] num = { 11, 14, 17, 22, 44 };
 		int ans = S.getSumOfPrimeNo(num);
 		System.out.println("Sum of the Prime No array: " + ans);
-
 	}
-
 }

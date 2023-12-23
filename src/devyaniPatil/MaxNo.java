@@ -13,7 +13,7 @@ class MaxNo {
 				max = arr[index];
 			}
 		}
-		return max;
+		 return max;
 	}
 
 	public static void main(String[] args) {
@@ -21,6 +21,5 @@ class MaxNo {
 		int[] num = { 11, 4, 55, 23, 43 };
 		int ans = m.getMaxNo(num);
 		System.out.println("Maximun No is: " + ans);
-
 	}
 }

@@ -21,6 +21,5 @@ class MinNo {
 		int[] num = { 11, 4, 55, 23, 43 };
 		int ans = s.getMinNo(num);
 		System.out.println("Minimum no is: " + ans);
-
 	}
 }
