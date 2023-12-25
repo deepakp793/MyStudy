@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.ArrayExample;
 /*Assignment - 19 
 4) Write a method to return min number from array.
 input : {11,4,55,23,43}
@@ -17,9 +17,9 @@ class MinNo {
 	}
 
 	public static void main(String[] args) {
-		MinNo s = new MinNo();
+		MinNo min = new MinNo();
 		int[] num = { 11, 4, 55, 23, 43 };
-		int ans = s.getMinNo(num);
+		int ans = min.getMinNo(num);
 		System.out.println("Minimum no is: " + ans);
 	}
 }

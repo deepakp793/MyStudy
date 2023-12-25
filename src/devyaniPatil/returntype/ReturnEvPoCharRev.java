@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.returntype;
 /*Program 3 : Write a method to return even position characters from given String in reverse.
 input : technocredits
 output : tdrohe*/
@@ -16,8 +16,8 @@ class ReturnEvPoCharRev {
 	}
 
 	public static void main(String[] args) {
-		ReturnEvPoCharRev r = new ReturnEvPoCharRev();
-		String even = r.evenPosition("technocredits");
-		System.out.println("even position characters from given String in reverse is --" + even);
+		ReturnEvPoCharRev Char = new ReturnEvPoCharRev();
+		String even = Char.evenPosition("technocredits");
+		System.out.println("even position characters from given String in reverse is  " + even);
 	}
 }

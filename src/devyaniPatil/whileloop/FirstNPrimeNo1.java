@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.whileloop;
 /*Assignment - 14 : 
 Using While loop
 Program 1: 
@@ -39,7 +39,7 @@ class FirstNPrimeNo1 {
 	}
 
 	public static void main(String[] args) {
-		FirstNPrimeNo1 p = new FirstNPrimeNo1();
-		p.firstNPrimeNo(5);
+		FirstNPrimeNo1 prime = new FirstNPrimeNo1();
+		prime.firstNPrimeNo(5);
 	}
 }

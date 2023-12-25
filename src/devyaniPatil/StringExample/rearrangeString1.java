@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.StringExample;
 /*Assignment - 18 :
 2) Write a program to rearrange String in given format. 
 Hint : Uppercase letters + digits + LowerCase letter
@@ -28,8 +28,8 @@ class rearrangeString1 {
 	}
 
 	public static void main(String[] args) {
-		rearrangeString1 r = new rearrangeString1();
-		String output = r.AllDigitAllCharacter("t8EcHNo5Cred3iTs");
+		rearrangeString1 string = new rearrangeString1();
+		String output = string.AllDigitAllCharacter("t8EcHNo5Cred3iTs");
 		System.out.println(output);
 	}
 }

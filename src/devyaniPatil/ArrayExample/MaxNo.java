@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.ArrayExample;
 /*Assignment - 19 :
 3) Write a method to return max number from array.
 input : {11,4,55,23,43}
@@ -17,9 +17,9 @@ class MaxNo {
 	}
 
 	public static void main(String[] args) {
-		MaxNo m = new MaxNo();
+		MaxNo max = new MaxNo();
 		int[] num = { 11, 4, 55, 23, 43 };
-		int ans = m.getMaxNo(num);
+		int ans = max.getMaxNo(num);
 		System.out.println("Maximun No is: " + ans);
 	}
 }
