@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.StringExample;
 
 /*Assignment - 18 :
 1) Write a program to rearrange String in given format. 
@@ -24,8 +24,8 @@ class RerrangeString {
 	}
 
 	public static void main(String[] args) {
-		RerrangeString r = new RerrangeString();
-		String output = r.AllDigitAllCharacter("te2cH4no");
+		RerrangeString string = new RerrangeString();
+		String output = string.AllDigitAllCharacter("te2cH4no");
 		System.out.println(output);
 	}
 }

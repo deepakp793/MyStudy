@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.ArrayExample;
 /*Assignment - 19 : 
 
 1) Write a method to return sum of all numbers in given array.
@@ -17,9 +17,9 @@ class SumOfArray {
 	}
 
 	public static void main(String[] args) {
-		SumOfArray s = new SumOfArray();
+		SumOfArray sum = new SumOfArray();
 		int[] num = { 10, 11, 15 };
-		int ans = s.add(num);
+		int ans = sum.add(num);
 		System.out.println("Sum of all numbers in given array is : " + ans);
 	}
 }

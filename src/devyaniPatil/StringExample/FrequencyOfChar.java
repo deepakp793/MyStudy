@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.StringExample;
 /*Assignment - 18 :
 3)Find frequency of given character from given String.
 
@@ -21,10 +21,10 @@ class FrequencyOfChar {
 	}
 
 	public static void main(String[] args) {
-		FrequencyOfChar f = new FrequencyOfChar();
+		FrequencyOfChar freq = new FrequencyOfChar();
 		String input = "TechnoTtcredits";
 		char targetChar = 'T';
-		int getCountOfTargetChar = f.getCountOfTargetChar(input, targetChar);
+		int getCountOfTargetChar = freq.getCountOfTargetChar(input, targetChar);
 		System.out.println(input + " freq of character " + targetChar + " is " + getCountOfTargetChar);
 	}
 }

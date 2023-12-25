@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.returntype;
 /*Assignment - 17 : 
 
 Program 1 : Write a method to return reverse name

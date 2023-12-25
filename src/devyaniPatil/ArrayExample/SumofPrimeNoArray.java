@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.ArrayExample;
 /*Assignment - 19 :
 2) Write a method to return sum of all prime numbers from given array.
 input : {11,14,17,22,44}
@@ -29,9 +29,9 @@ class SumofPrimeNoArray {
 	}
 
 	public static void main(String[] args) {
-		SumofPrimeNoArray S = new SumofPrimeNoArray();
+		SumofPrimeNoArray Sum = new SumofPrimeNoArray();
 		int[] num = { 11, 14, 17, 22, 44 };
-		int ans = S.getSumOfPrimeNo(num);
+		int ans = Sum.getSumOfPrimeNo(num);
 		System.out.println("Sum of the Prime No array: " + ans);
 	}
 }

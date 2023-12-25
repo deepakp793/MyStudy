@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.returntype;
 /*Assignment - 15 : 
 
 1. We need to do sum of first 5 prime number, using return keyword
@@ -34,8 +34,8 @@ class FirstNPrimeNoUsingReturn {
 	}
 
 	public static void main(String[] args) {
-		FirstNPrimeNoUsingReturn F = new FirstNPrimeNoUsingReturn();
-		int n = F.sumOfFirstNPrimeNumber(5);
+		FirstNPrimeNoUsingReturn first5 = new FirstNPrimeNoUsingReturn();
+		int n = first5.sumOfFirstNPrimeNumber(5);
 		System.out.println("Sum of first 5 prime numbers: " + n);
 	}
 }
