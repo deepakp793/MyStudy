@@ -15,8 +15,7 @@ class RequiredNumber{
 			sum=sum+no;
 			no++;
    } 
-   System.out.println(count);
-   
+   System.out.println(count);  
  }
  public static void main(String[]args){
    RequiredNumber N=new RequiredNumber();
