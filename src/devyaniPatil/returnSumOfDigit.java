@@ -6,7 +6,7 @@ Hint : ch = Character.charAt(index);
 Character.isDigit(ch);
 int num = Character.getNumericValue(ch); '9'*/
 
-class returnSumOfDigit {
+class ReturnSumOfDigit {
 
 	int getDigitSum(String input) {
 		int digitSum = 0;
@@ -20,7 +20,7 @@ class returnSumOfDigit {
 	}
 
 	public static void main(String[] args) {
-		returnSumOfDigit r = new returnSumOfDigit();
+		ReturnSumOfDigit r = new ReturnSumOfDigit();
 		int digitSum = r.getDigitSum("Te8chno3cred7it9s");
 		System.out.println(digitSum);
 

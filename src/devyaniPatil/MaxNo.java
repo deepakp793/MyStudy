@@ -13,7 +13,7 @@ class MaxNo {
 				max = arr[index];
 			}
 		}
-		 return max;
+		return max;
 	}
 
 	public static void main(String[] args) {

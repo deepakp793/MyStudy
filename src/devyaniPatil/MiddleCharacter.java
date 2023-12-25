@@ -15,6 +15,7 @@ class MiddleCharacter {
 		}
 		return str.charAt(index);
 	}
+
 	public static void main(String[] args) {
 		String str;
 		str = "technocredits";

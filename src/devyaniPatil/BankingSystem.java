@@ -61,12 +61,12 @@ class BankingSystem {
 
 	void individualTransactionSummary() {
 		System.out.println(username + " transaction Summary:credit-" + creditCount + "times Debit-" + debitCount
-		+ "times,printbalance-" + printCount + "times");
+				+ "times,printbalance-" + printCount + "times");
 	}
 
 	void alltransactionSummary() {
 		System.out.println(" Alltrabsaction summary:Credit-" + allCreditCount + "times,Debit-" + allDebitCount
-		+ "times,printBalance-" + printCount + "times");
+				+ "times,printBalance-" + printCount + "times");
 	}
 
 	public static void main(String[] args) {

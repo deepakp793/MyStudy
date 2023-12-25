@@ -18,6 +18,7 @@ class FirstNPrimeNoUsingReturn {
 		}
 		return isPrimeFlag;
 	}
+
 	int sumOfFirstNPrimeNumber(int n) {
 		int count = 0;
 		int num = 2;
@@ -31,6 +32,7 @@ class FirstNPrimeNoUsingReturn {
 		}
 		return sum;
 	}
+
 	public static void main(String[] args) {
 		FirstNPrimeNoUsingReturn F = new FirstNPrimeNoUsingReturn();
 		int n = F.sumOfFirstNPrimeNumber(5);

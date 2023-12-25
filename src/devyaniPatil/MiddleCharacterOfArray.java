@@ -24,7 +24,7 @@ class MiddleCharacterOfArray {
 			System.out.println(name + " -> " + middleChar);
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		MiddleCharacterOfArray m = new MiddleCharacterOfArray();
 		String[] names = { "Ashish", "Aditty", "Manjiri", "Ankita" };

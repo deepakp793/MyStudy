@@ -6,13 +6,13 @@ String str = "TechnoTtcredits";
 char targetChar = 't';
 output : 4*/
 
-class FrequencyOfChar{
+class FrequencyOfChar {
 
-	int getCountOfTargetChar(String input, char targetChar){
+	int getCountOfTargetChar(String input, char targetChar) {
 		int count = 0;
 		input = input.toLowerCase();
 		targetChar = Character.toLowerCase(targetChar);
-		for (int index = 0; index < input.length(); index++){
+		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
 			if (ch == targetChar)
 				count++;
@@ -20,7 +20,7 @@ class FrequencyOfChar{
 		return count;
 	}
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		FrequencyOfChar f = new FrequencyOfChar();
 		String input = "TechnoTtcredits";
 		char targetChar = 'T';

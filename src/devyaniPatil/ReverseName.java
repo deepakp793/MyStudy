@@ -7,7 +7,7 @@ output : kiluaM*/
 
 class ReverseName {
 
-	String reverseName(String name){
+	String reverseName(String name) {
 		String revName = "";
 		for (int index = name.length() - 1; index >= 0; index--) {
 			revName = revName + name.charAt(index);
