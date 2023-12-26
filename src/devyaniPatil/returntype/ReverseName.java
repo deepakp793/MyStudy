@@ -16,8 +16,8 @@ class ReverseName {
 	}
 
 	public static void main(String[] args) {
-		ReverseName r = new ReverseName();
-		String output = r.reverseName("Maulik");
+		ReverseName revname = new ReverseName();
+		String output = revname.reverseName("Maulik");
 		System.out.println(output);
 	}
 }

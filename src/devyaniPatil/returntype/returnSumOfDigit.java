@@ -11,19 +11,18 @@ class ReturnSumOfDigit{
 
 	int getDigitSum(String input){
 	     int digitSum = 0;
-	        for(int index=0;index<input.length();index++){
-	          char ch=input.charAt(index);
+	        for(int index = 0;index<input.length();index++){
+	          char ch = input.charAt(index);
 	          if(Character.isDigit(ch)){
                  digitSum = digitSum + Character.getNumericValue(ch);				  
 		       }
 	        }
 	       return digitSum;
         }
+	
   public static void main(String[]args){
-	  ReturnSumOfDigit digit=new ReturnSumOfDigit();
-	  int digitSum=digit.getDigitSum("Te8chno3cred7it9s");
-	  System.out.println(digitSum);
-	  
+	  ReturnSumOfDigit digit = new ReturnSumOfDigit();
+	  int digitSum = digit.getDigitSum("Te8chno3cred7it9s");
+	  System.out.println(digitSum);  
   }
-
  }
