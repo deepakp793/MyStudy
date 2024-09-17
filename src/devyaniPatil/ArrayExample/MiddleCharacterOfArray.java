@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.ArrayExample;
 /*Assignment - 19 
 5) Write a method to print middle character of all array elements.
 input : {"Ashish","Aditty","Manjiri","Ankita"}
@@ -26,8 +26,8 @@ class MiddleCharacterOfArray {
 	}
 
 	public static void main(String[] args) {
-		MiddleCharacterOfArray m = new MiddleCharacterOfArray();
+		MiddleCharacterOfArray middlechar = new MiddleCharacterOfArray();
 		String[] names = { "Ashish", "Aditty", "Manjiri", "Ankita" };
-		m.printMiddleCharacter(names);
+		middlechar.printMiddleCharacter(names);
 	}
 }

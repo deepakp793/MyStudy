@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.returntype;
 /*Assignment - 17 : 
 
 Program 1 : Write a method to return reverse name
@@ -16,8 +16,8 @@ class ReverseName {
 	}
 
 	public static void main(String[] args) {
-		ReverseName r = new ReverseName();
-		String output = r.reverseName("Maulik");
+		ReverseName revname = new ReverseName();
+		String output = revname.reverseName("Maulik");
 		System.out.println(output);
 	}
 }

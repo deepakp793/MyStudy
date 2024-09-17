@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.whileloop;
 /*test:2
 findRequiredNumbers(50);
 input : 50
@@ -19,7 +19,7 @@ class RequiredNumber {
 	}
 
 	public static void main(String[] args) {
-		RequiredNumber N = new RequiredNumber();
-		N.findRequiredNumber(50);
+		RequiredNumber number = new RequiredNumber();
+		number.findRequiredNumber(50);
 	}
 }

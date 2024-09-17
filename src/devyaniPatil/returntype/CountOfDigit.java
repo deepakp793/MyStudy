@@ -1,4 +1,4 @@
-package devyaniPatil;
+package devyaniPatil.returntype;
 /*Assignment - 17 : 
 
 Program 4 : Write a method to return count of digits in a given string.

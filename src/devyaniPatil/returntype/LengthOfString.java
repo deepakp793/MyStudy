@@ -1,5 +1,5 @@
-package devyaniPatil;
-/*Assignment - 16 : 6th Sep'2022
+package devyaniPatil.returntype;
+/*Assignment - 16 : 
 
  1. write a method to return length of the given name
 int getNameLength(String name)*/
